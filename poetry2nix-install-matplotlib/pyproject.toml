@@ -6,6 +6,7 @@ authors = ["Michael Noronha <michaeltnoronha@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+cppy = "^1.1.0"
 matplotlib = "^3.2.2"
 
 [tool.poetry.dev-dependencies]
