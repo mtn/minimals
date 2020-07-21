@@ -4,7 +4,7 @@ let
     owner = "nix-community";
     repo = "poetry2nix";
     rev = "772b272c965167a7473d6622c4fb45a24efbb88f";
-    sha256 = "1sygililyh44igkj57ihyv1i0kjmj646nw80q1jrj9pvs8m97hgm";
+    sha256 = "0lf1cf6xkm4frrmw03ra91rx6v5y3wa0dgcg8gyjcm2178l8294q";
   };
 in
   with import "${src.out}/overlay.nix" pkgs pkgs;
