@@ -3,8 +3,8 @@ let
   src = fetchFromGitHub {
     owner = "nix-community";
     repo = "poetry2nix";
-    rev = "772b272c965167a7473d6622c4fb45a24efbb88f";
-    sha256 = "0lf1cf6xkm4frrmw03ra91rx6v5y3wa0dgcg8gyjcm2178l8294q";
+    rev = "6e2a8ce9cc7a2f9d66a8d513fd919d47ac8c24c0";
+    sha256 = "1awp70kkb5x0l9s99iygbdavsx2yik60bxcqr7kdp6p6hdj4pb0s";
   };
 in
   with import "${src.out}/overlay.nix" pkgs pkgs;
